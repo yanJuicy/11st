@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쇼핑몰 로그인</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <a href="#">
+                <img id="login-logo" src="images/login-logo.png" alt="">
+            </a>
+        </div>
+        <form action="">
+            <div>
+                <input class="login-input" type="text" placeholder="아이디">
+            </div>
+            <div>
+                <input class="login-input" type="password" placeholder="비밀번호">
+            </div>
+            <input type="button" id="login-button" value="로그인">
+            <div class="login-tool">
+                <div class="login-auto">
+                    <input type="checkbox" name="autoLogin" id="autoLogin">
+                    <label for="autoLogin">자동로그인</label>
+                </div>
+                <div class="login-find">
+                    <a href="#">아이디찾기</a>
+                    <a href="#">비밀번호찾기</a>
+                </div>
+            </div>
+            <div class="login-social">
+                <h4>간편 로그인</h4>
+                <ul class="login-social-list">
+                    <li>
+                        <a href="#"><img id="social-login-kakao" class="social-login-img"
+                                src="images/login/login-kakao.png" alt=""><span>카카오</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img id="social-login-kakao" class="social-login-img" src="images/login/login-t.png"
+                                alt=""><span>T아이디</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img id="social-login-kakao" class="social-login-img"
+                                src="images/login/login-naver.png" alt=""><span>네이버</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img id="social-login-kakao" class="social-login-img"
+                                src="images/login/login-phone.png" alt=""><span>휴대폰</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-join">
+                <a href="#">회원가입</a>
+            </div>
+            <div class="login-nomember">
+                <button type="submit">비회원 주문조회</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
