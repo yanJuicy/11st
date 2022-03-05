@@ -1,0 +1,114 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.logo {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 30px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.logo img {
+  position: absolute;
+  top: 15px;
+  height: 40px;
+}
+
+.content {
+  width: 460px;
+  margin: 0 auto;
+  padding: 20px 0 170px;
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 62px;
+}
+
+.title-main {
+  font-size: 44px;
+}
+
+.title-sub {
+  display: block;
+  margin-top: 10px;
+  font-size: 21px;
+}
+
+.form-title {
+  padding: 0px 0 8px;
+}
+
+.form-item {
+  margin: 20px 0;
+}
+
+.form-input {
+  position: relative;
+  display: block;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+.form-input input {
+  position: relative;
+  width: 91%;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: left;
+  border: none;
+  z-index: 1;
+}
+
+.form-bottom {
+  margin-top: 80px;
+}
+
+.check-area {
+  position: relative;
+  margin-bottom: 22px;
+}
+.check-area input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+.check-area span {
+  position: relative;
+  font-size: 14px;
+  padding-left: 34px;
+}
+
+.form-button {
+  clear: both;
+  display: block;
+  content: "";
+}
+.form-button button {
+  position: relative;
+  width: 100%;
+  height: 62px;
+  color: #bdbdbd;
+  background-color: #ededed;
+  border: 1px solid #ededed;
+  padding: 0 10px;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: top;
+}
