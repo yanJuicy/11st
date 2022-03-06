@@ -1,6 +1,5 @@
 body {
     box-sizing: border-box;
-    margin: 0;
     background: #f4f4f4;
 }
 
@@ -14,15 +13,27 @@ li {
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+h4 {
+    margin: 0;
+}
+
 .login-container {
     position: relative;
+    width: 355px;
     padding: 83px 0;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .logo {
+    text-align: center;
     width: 100%;
     height: 80px;
+    margin-bottom: 10px;
 }
 
 .login-input {
@@ -30,7 +41,7 @@ li {
     width: 328px;
     height: 48px;
     padding-left: 20px;
-    color: #ddd; 
+    color: #111; 
 }
 
 #login-button {
@@ -47,7 +58,9 @@ li {
 }
 
 .login-tool {
-    margin-top: 10px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 13px;
 }
 
 .login-auto {
@@ -59,12 +72,25 @@ li {
     z-index: 1;
     width: 13px;
     height: 13px;
-    margin: 4px 5px 0 15px;
     vertical-align: middle;
+}
+.login-auto label {
+    padding-left: 10px;
+    height: 22px;
+}
+
+#auto-login {
+    width: 13px;
+    height: 13px;
+    margin: 4px 4px 0 0px;
 }
 
 .login-find {
     display: inline;
+    float: right;
+}
+.login-find a {
+    margin-left: 10px;
 }
 
 #login-logo {
@@ -77,4 +103,68 @@ li {
     width: 40px;
     height: 40px;
     background-size: 416px 330px;
+}
+
+.login-social {
+    margin-top: 50px;
+    text-align: center;
+    color: #111;
+}
+.login-social h4 {
+    color: #999;
+    font-size: 13px;
+}
+
+.login-social-list {
+    width: 300px;
+    height: 105px;
+    text-align: center;
+    margin: 3px auto 0;
+    overflow: hidden;
+}
+.login-social-list li {
+    width: 60px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+}
+
+.social-login-img {
+    text-align: center;
+}
+.login-social-list li a span {
+    display: block;
+    background: none;
+    width: 60px;
+    height: 10px;
+    padding: 5px 0 0 0;
+    font-size: 14px;
+    color: #999;
+}
+
+.login-join {
+    margin-top: 20px;
+    text-align: center;
+}
+.login-join a {
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.login-nomember {
+    margin-top: 30px;
+    text-align: center;
+}
+.login-nomember button {
+    display: inline-block;
+    width: 162px;
+    height: 48px;
+    margin: 10px 0 0 4px;
+    font-size: 14px;
+    padding-bottom: 4px;
+    vertical-align: middle;
+    color: #111;
+    background: #fff;
+    border: 1px solid #ddd;
 }
