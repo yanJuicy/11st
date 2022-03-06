@@ -1,0 +1,144 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    display: inline;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.menu-container {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.menu-container::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #f4f4f4;
+    content: "";
+}
+
+#header-menu {
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+    height: 120px;
+}
+
+#header-util {
+    width: 1240px;
+    height: 66px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header-util .header-inner {
+    position: absolute;
+    top: 25px;
+}
+
+.header-inner {
+    position: relative;
+    display: block;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    width: 94px;
+    height: 40px;
+}
+
+.search-bar {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    margin-left: 120px;
+    width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background: #fafafa;
+}
+
+.search-input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #999;
+    background: none;
+}
+.search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    overflow: hidden;
+    background-image: url("https://c.011st.com/img/common/sprites/sp_gnb_2x_202189_144535.png");
+    background-position: -165px -45px;
+    width: 45px;
+    height: 45px;
+    background-size: 363px 300px;
+    border: none;
+    border-radius: 25px;
+}
+.search-button:hover {
+    cursor: pointer;
+}
+
+.user-menu {
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    right: -8px;
+}
+
+.user-menu-item {
+    width: 48px;
+    height: 48px;
+    margin-right: 25px;
+}
+
+.mypage-container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 0 50px;
+}
+
+.mypage-title {
+    overflow: hidden;
+    width: 100%;
+}
+.mypage-title h2 {
+    float: left;
+    width: 185px;
+    height: 41px;
+    margin-top: 5px;
+}
+
+.mypage-sub {
+    width: 185px;
+    float: left;
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>쇼핑몰 마이페이지</title>
+  <link rel="stylesheet" href="css/mypage.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu-container">
+      <div id="header-menu">
+        <div class="header-inner">
+          <h1 class="logo" ">
+                            <a href=" #"><img src="images/logo.png"></a>
+          </h1>
+          <div class="search-bar">
+            <input type="text" class="search-input" placeholder="검색어 입력">
+            <button type="submit" class="search-button"></button>
+          </div>
+          <div class="user-menu">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#"><img id="mypage" class="user-menu-item" src="images/mypage.png" alt="마이페이지"></a>
+                </li>
+                <li>
+                  <a href="#"><img id="order" class="user-menu-item" src="images/order.png" alt="배송조회"></a>
+                </li>
+                <li>
+                  <a href="#"><img id="cart" class="user-menu-item" src="images/cart.png" alt="장바구니"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="menu-container">
+      <div id="header-util">
+        <div class="header-inner">
+          <nav>
+            <ul>
+              <li>베스트</li>
+              <li>쿠폰/혜택</li>
+              <li>기획전</li>
+              <li>장보기</li>
+              <li>T공식대리점</li>
+              <li>쇼킹딜</li>
+            </ul>
+          </nav>
+          <nav>
+            <ul>
+              <li>아마존</li>
+              <li>아마존 딜</li>
+              <li>아마존 베스트</li>
+            </ul>
+          </nav>
+          <nav>
+            <ul>
+              <li>로그인</li>
+              <li>회원가입</li>
+              <li>바로가기
+                <span id="direct-status">OFF</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="mypage-container">
+      <div class="mypage-title">
+        <h2>나의 11번가</h2>
+      </div>
+
+      <div class="mypage-sub">
+        <div class="my-info">
+          <div class="my-info-profile">
+            <img src="images/mypage/profile_img03.png" alt="">
+          </div>
+          <div class="my-info-name">
+            <strong>이한주</strong>님은
+            <strong class="grade">FAMILY</strong>
+          </div>
+        </div>
+        <div class="mypage-sub-menu-container">
+          <div class="mypage-sub-menu first">
+            <h3>나의 쇼핑 내역</h3>
+            <ul>
+              <li><a href="">주문/배송조회</a></li>
+              <li><a href="">취소/반품/교환 신청</a></li>
+              <li><a href="">취소/반품/교환 현황</a></li>
+              <li><a href="">환불/입금내역</a></li>
+              <li><a href="">영수증/소득공제/배송비</a></li>
+            </ul>
+          </div>
+          <div class="mypage-sub-menu">
+            <h3><a href="">나의 관심 목록</a></h3>
+            <ul>
+              <li><a href="">찜한 상품</a></li>
+              <li><a href="">최근 본 상품</a></li>
+              <li><a href="">찜한/구매스토어</a></li>
+              <li><a href="">나의 티켓팅 알림</a></li>
+            </ul>
+          </div>
+          <div class="mypage-sub-menu">
+            <h3><a href="">회원 정보</a></h3>
+            <ul>
+              <li><a href="">회원정보 변경/탈퇴</a></li>
+              <li><a href="">회원 전환</a></li>
+              <li><a href="">나의 배송지 관리</a></li>
+              <li><a href="">로그인 관리</a></li>
+              <li><a href="">개인정보 이용내역</a></li>
+              <li><a href="">개인통관고유부호 관리</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mypage-content">
+        <div class="order-status">
+          <h3>진행중인 주문</h3>
+          <div class="order-wrap">
+            <ol>
+              <li class="order-status-item">
+                <span>입금대기중</span>
+                <strong>0</strong>
+              </li>
+              <li class="order-status-item">
+                <span>결제완료</span>
+                <strong>0</strong>
+              </li>
+              <li class="order-status-item">
+                <span>배송준비중</span>
+                <strong>0</strong>
+              </li>
+              <li class="order-status-item">
+                <span>배송중</span>
+                <strong>0</strong>
+              </li>
+              <li class="order-status-item">
+                <span>배송완료</span>
+                <strong>0</strong>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="my-order-menu">
+          <ul>
+            <li><a href="">배송상품</a></li>
+          </ul>
+        </div>
+        <div class="my-order-title">
+          <h3>배송상품 주문 정보</h3>
+          <span>최근 주문 3건(6개월 내)</span>
+        </div>
+        <div class="my-order-table">
+          <table>
+            <thead>
+              <tr>
+                <th>주문일자</th>
+                <th>주문 상품 정보</th>
+                <th>상품금액(수량)</th>
+                <th>배송비(판매자)</th>
+                <th>주문상태</th>
+                <th>확인/취소/리뷰</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p><a href="">2021-12-21 <br>(20211221334899662)</a></p>
+                  <p><a href=""><span>상세보기</span></a></p>
+                </td>
+                <td>
+                  <div class="order-prod">
+                    <span><img src="images/mypage/order-item1.jpg" alt=""></span>
+                    <div class="order-prod-info">
+                      <p><a href="">샤오미 홍미노트9S 케이스</a></p>
+                      <p>
+                        옵션명 1:02.쿠마몬젤리
+                        <br>
+                        옵션명 2:쿠마몬투명-3
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p>
+                    <strong>8,900원</strong>
+                    <br>
+                    (1개)
+                  </p>
+                </td>
+                <td>
+                  <p>무료</p>
+                  <a href="">hibernia01</a>
+                </td>
+                <td>
+                  <span>구매확정</span>
+                  <p><a href="">배송조회</a></p>
+                  <p><a href="">리뷰작성</a></p>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><a href="">2021-12-21 <br>(20211221334899662)</a></p>
+                  <p><a href=""><span>상세보기</span></a></p>
+                </td>
+                <td>
+                  <div class="order-prod">
+                    <span><img src="images/mypage/order-item1.jpg" alt=""></span>
+                    <div class="order-prod-info">
+                      <p><a href="">샤오미 홍미노트9S 케이스</a></p>
+                      <p>
+                        옵션명 1:02.쿠마몬젤리
+                        <br>
+                        옵션명 2:쿠마몬투명-3
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p>
+                    <strong>8,900원</strong>
+                    <br>
+                    (1개)
+                  </p>
+                </td>
+                <td>
+                  <p>무료</p>
+                  <a href="">hibernia01</a>
+                </td>
+                <td>
+                  <span>구매확정</span>
+                  <p><a href="">배송조회</a></p>
+                  <p><a href="">리뷰작성</a></p>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><a href="">2021-12-21 <br>(20211221334899662)</a></p>
+                  <p><a href=""><span>상세보기</span></a></p>
+                </td>
+                <td>
+                  <div class="order-prod">
+                    <span><img src="images/mypage/order-item1.jpg" alt=""></span>
+                    <div class="order-prod-info">
+                      <p><a href="">샤오미 홍미노트9S 케이스</a></p>
+                      <p>
+                        옵션명 1:02.쿠마몬젤리
+                        <br>
+                        옵션명 2:쿠마몬투명-3
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p>
+                    <strong>8,900원</strong>
+                    <br>
+                    (1개)
+                  </p>
+                </td>
+                <td>
+                  <p>무료</p>
+                  <a href="">hibernia01</a>
+                </td>
+                <td>
+                  <span>구매확정</span>
+                  <p><a href="">배송조회</a></p>
+                  <p><a href="">리뷰작성</a></p>
+                </td>
+                <td>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>
