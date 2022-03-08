@@ -72,7 +72,40 @@ a:hover {
 .header-inner {
     position: relative;
     display: block;
-}
+    width: 100%;
+  }
+  .header-inner ul {
+    margin: 0;
+  }
+  .header-inner li {
+    float: left;
+    height: 66px;
+    margin: 0 0 0 21px;
+    font-size: 18px;
+  }
+  
+  .amazon {
+    margin-left: 10px;
+  }
+  
+  .header-util-login {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 66px;
+    padding: 0 0 0 0;
+    font-size: 16px;
+    color: #111;
+  }
+  .header-util-login div {
+    float: left;
+  }
+  .header-util-login a {
+    position: relative;
+    margin: 0 14px;
+    color: #111;
+    font-weight: bold;
+  }
 
 .logo {
     display: inline-block;
