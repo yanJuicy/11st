@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 페이지</title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-container">
+            <div id="header-menu">
+                <div class="header-inner">
+                    <h1 class="logo" ">
+                                <a href=" #"><img src="images/logo.png"></a>
+                    </h1>
+                    <div class="search-bar">
+                        <input type="text" class="search-input" placeholder="검색어 입력">
+                        <button type="submit" class="search-button"></button>
+                    </div>
+                    <div class="user-menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#"><img id="mypage" class="user-menu-item" src="images/mypage.png"
+                                            alt="마이페이지"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img id="order" class="user-menu-item" src="images/order.png"
+                                            alt="배송조회"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img id="cart" class="user-menu-item" src="images/cart.png"
+                                            alt="장바구니"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-tab">
+            <div class="tab-link">
+                <ul class="tab-list">
+                    <li class="first-tab"><a href="">통합검색</a></li>
+                    <li><a href="">가격비교</a></li>
+                    <li><a href="">쇼킹딜</a></li>
+                    <li><a href="">아마존</a></li>
+                    <li><a href="">오늘발송</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="search-main">
+            <div class="search-filter">
+                <div class="search-filter-sort">
+                    <div class="sort-list">
+                        <ul>
+                            <li class="item">
+                                <label for="checkbox-item">가격비교</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">배송 선물</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">희망쇼핑</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-filter-sort">
+                    <div class="sort-list">
+                        <ul>
+                            <li class="item">
+                                <label for="checkbox-item">브랜드</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">애플</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">레노버</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-filter-sort">
+                    <div class="sort-list">
+                        <ul>
+                            <li class="item">
+                                <label for="checkbox-item">화면크기</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">28~30cm (11인치)</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">30~33cm (12인치)</label>
+                            </li>
+                            <li class="item">
+                                <input type="checkbox" id="checkbox-item">
+                                <label for="checkbox-item">33~35cm (13인치)</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-content">
+                <div class="related-keyword">
+                    <h3>연관검색어</h3>
+                    <div class="related-list">
+                        <a href="">맥북에어 m1</a>
+                        <a href="">노트북</a>
+                        <a href="">맥북프로</a>
+                        <a href="">애플</a>
+                        <a href="">맥북프로 m1</a>
+                        <a href="">애플노트북</a>
+                        <a href="">아이패드</a>
+                        <a href="">맥북프로 14</a>
+                        <a href="">애플맥북프로</a>
+                    </div>
+                </div>
+
+                <section class="recommand">
+                    <div class="recommand-title">
+                        <h3>추천상품</h3>
+                    </div>
+                    <ul class="recommand-list">
+                        <li>
+                            <div class="recommand-card">
+                                <div class="recommand-thumb">
+                                    <a href="">
+                                        <img src="images/search/recommand1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="recommand-info">
+                                    <div class="recommand-name">
+                                        <a href="">
+                                            <span>애플 2017 맥북프로 15 MPTR2KH/A</span>
+                                        </a>
+                                    </div>
+                                    <div class="recommand-price">
+                                        <strong>909,000</strong>원
+                                    </div>
+                                    <div class="recommand-delivery">
+                                        <span class="delivery">무료배송</span>
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="recommand-card">
+                                <div class="recommand-thumb">
+                                    <a href="">
+                                        <img src="images/search/recommand1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="recommand-info">
+                                    <div class="recommand-name">
+                                        <a href="">
+                                            <span>애플 2017 맥북프로 15 MPTR2KH/A</span>
+                                        </a>
+                                    </div>
+                                    <div class="recommand-price">
+                                        <strong>909,000</strong>원
+                                    </div>
+                                    <div class="recommand-delivery">
+                                        <span class="delivery">무료배송</span>
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="recommand-card">
+                                <div class="recommand-thumb">
+                                    <a href="">
+                                        <img src="images/search/recommand1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="recommand-info">
+                                    <div class="recommand-name">
+                                        <a href="">
+                                            <span>애플 2017 맥북프로 15 MPTR2KH/A</span>
+                                        </a>
+                                    </div>
+                                    <div class="recommand-price">
+                                        <strong>909,000</strong>원
+                                    </div>
+                                    <div class="recommand-delivery">
+                                        <span class="delivery">무료배송</span>
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="recommand-card">
+                                <div class="recommand-thumb">
+                                    <a href="">
+                                        <img src="images/search/recommand1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="recommand-info">
+                                    <div class="recommand-name">
+                                        <a href="">
+                                            <span>애플 2017 맥북프로 15 MPTR2KH/A</span>
+                                        </a>
+                                    </div>
+                                    <div class="recommand-price">
+                                        <strong>909,000</strong>원
+                                    </div>
+                                    <div class="recommand-delivery">
+                                        <span class="delivery">무료배송</span>
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="recommand-card">
+                                <div class="recommand-thumb">
+                                    <a href="">
+                                        <img src="images/search/recommand1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="recommand-info">
+                                    <div class="recommand-name">
+                                        <a href="">
+                                            <span>애플 2017 맥북프로 15 MPTR2KH/A</span>
+                                        </a>
+                                    </div>
+                                    <div class="recommand-price">
+                                        <strong>909,000</strong>원
+                                    </div>
+                                    <div class="recommand-delivery">
+                                        <span class="delivery">무료배송</span>
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="focus-click">
+                    <div class="focus-title">
+                        <h3>포커스클릭</h3>
+                    </div>
+                    <ul class="focus-list">
+                        <li>
+                            <div class="focus-card">
+                                <div class="focus-thumb">
+                                    <a href=""><img src="images/search/focus1.jpg" alt=""></a>
+                                </div>
+                                <div class="focus-info">
+                                    <div class="focus-info-title">
+                                        <a href="">
+                                            <span class="prod-type"></span>
+                                            <strong>Apple 맥북 에어 2020년 M1 8코어 CPU 및 7코어 GPU 265GB - 스페이스그레이</strong>
+                                        </a>
+                                    </div>
+                                    <div class="focus-price">
+                                        <strong>1,212,600</strong>원
+                                    </div>
+                                    <div class="focus-delivery">
+                                        <span class="delivery">무료배송</span>
+                                    </div>
+                                </div>
+                                <div class="seller-info">
+                                    <div class="seller"><a href="">다음몰</a></div>
+                                    <div class="seller-delivery">
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-card">
+                                <div class="focus-thumb">
+                                    <a href=""><img src="images/search/focus1.jpg" alt=""></a>
+                                </div>
+                                <div class="focus-info">
+                                    <div class="focus-info-title">
+                                        <a href="">
+                                            <span class="prod-type"></span>
+                                            <strong>Apple 맥북 에어 2020년 M1 8코어 CPU 및 7코어 GPU 265GB - 스페이스그레이</strong>
+                                        </a>
+                                    </div>
+                                    <div class="focus-price">
+                                        <strong>1,212,600</strong>원
+                                    </div>
+                                    <div class="focus-delivery">
+                                        <span class="delivery">무료배송</span>
+                                    </div>
+                                </div>
+                                <div class="seller-info">
+                                    <div class="seller"><a href="">다음몰</a></div>
+                                    <div class="seller-delivery">
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-card">
+                                <div class="focus-thumb">
+                                    <a href=""><img src="images/search/focus1.jpg" alt=""></a>
+                                </div>
+                                <div class="focus-info">
+                                    <div class="focus-info-title">
+                                        <a href="">
+                                            <span class="prod-type"></span>
+                                            <strong>Apple 맥북 에어 2020년 M1 8코어 CPU 및 7코어 GPU 265GB - 스페이스그레이</strong>
+                                        </a>
+                                    </div>
+                                    <div class="focus-price">
+                                        <strong>1,212,600</strong>원
+                                    </div>
+                                    <div class="focus-delivery">
+                                        <span class="delivery">무료배송</span>
+                                    </div>
+                                </div>
+                                <div class="seller-info">
+                                    <div class="seller"><a href="">다음몰</a></div>
+                                    <div class="seller-delivery">
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-card">
+                                <div class="focus-thumb">
+                                    <a href=""><img src="images/search/focus1.jpg" alt=""></a>
+                                </div>
+                                <div class="focus-info">
+                                    <div class="focus-info-title">
+                                        <a href="">
+                                            <span class="prod-type"></span>
+                                            <strong>Apple 맥북 에어 2020년 M1 8코어 CPU 및 7코어 GPU 265GB - 스페이스그레이</strong>
+                                        </a>
+                                    </div>
+                                    <div class="focus-price">
+                                        <strong>1,212,600</strong>원
+                                    </div>
+                                    <div class="focus-delivery">
+                                        <span class="delivery">무료배송</span>
+                                    </div>
+                                </div>
+                                <div class="seller-info">
+                                    <div class="seller"><a href="">다음몰</a></div>
+                                    <div class="seller-delivery">
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-card">
+                                <div class="focus-thumb">
+                                    <a href=""><img src="images/search/focus1.jpg" alt=""></a>
+                                </div>
+                                <div class="focus-info">
+                                    <div class="focus-info-title">
+                                        <a href="">
+                                            <span class="prod-type"></span>
+                                            <strong>Apple 맥북 에어 2020년 M1 8코어 CPU 및 7코어 GPU 265GB - 스페이스그레이</strong>
+                                        </a>
+                                    </div>
+                                    <div class="focus-price">
+                                        <strong>1,212,600</strong>원
+                                    </div>
+                                    <div class="focus-delivery">
+                                        <span class="delivery">무료배송</span>
+                                    </div>
+                                </div>
+                                <div class="seller-info">
+                                    <div class="seller"><a href="">다음몰</a></div>
+                                    <div class="seller-delivery">
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-card">
+                                <div class="focus-thumb">
+                                    <a href=""><img src="images/search/focus1.jpg" alt=""></a>
+                                </div>
+                                <div class="focus-info">
+                                    <div class="focus-info-title">
+                                        <a href="">
+                                            <span class="prod-type"></span>
+                                            <strong>Apple 맥북 에어 2020년 M1 8코어 CPU 및 7코어 GPU 265GB - 스페이스그레이</strong>
+                                        </a>
+                                    </div>
+                                    <div class="focus-price">
+                                        <strong>1,212,600</strong>원
+                                    </div>
+                                    <div class="focus-delivery">
+                                        <span class="delivery">무료배송</span>
+                                    </div>
+                                </div>
+                                <div class="seller-info">
+                                    <div class="seller"><a href="">다음몰</a></div>
+                                    <div class="seller-delivery">
+                                        <span class="delivery">
+                                            <em>오늘발송</em> (평일15시까지)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
